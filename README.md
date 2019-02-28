@@ -47,6 +47,8 @@ To start the application in isomerphic way
 
     npm run build-app
     npm run start:express-server
+
+The application is visible at port 9000
  
 To deploy the app to firebase 
 
