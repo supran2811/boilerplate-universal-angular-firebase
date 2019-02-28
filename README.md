@@ -30,11 +30,6 @@ We can install the master branch using the following commands:
 
     git clone https://github.com/supran2811/boilerplate-universal-angular-firebase.git
 
-This repository is made of several separate npm modules, that are installable separately. For example, to run the au-input module, we can do the following:
-
-    cd boilerplate-universal-angular-firebase
-    npm install
-
 Its also possible to install the modules as usual using npm:
 
     npm install
@@ -50,10 +45,10 @@ This application uses a self-signed certificate, so you will need to accept it u
 
 To start the application in isomerphic way
 
- npm run build-app
- npm run start:express-server
+    npm run build-app
+    npm run start:express-server
  
 To deploy the app to firebase 
 
- First add the project id inside ..firebaserc
- npm run build-and-deploy:prod
+    First add the project id inside ..firebaserc
+    npm run build-and-deploy:prod
